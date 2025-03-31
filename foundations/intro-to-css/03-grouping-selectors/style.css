@@ -1,0 +1,14 @@
+.common-class {
+    font: Helvetica, "Times New Roman", sans-serif;
+    font-size: 50px;
+}
+
+.first-button {
+    background-color: black;
+    color: white;
+}
+
+.seccond-button {
+    background-color: yellow;
+    color: black;
+}
