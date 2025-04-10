@@ -1,6 +1,15 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
+  /* Primero vamos a hacer que se comporten como "inline" */
+  display: flex;
+  /* Tercero, centramos el contenido en el eje vertical del header */
+  align-items: center;
+  /* Cuarto, ponemos separación con el borde del header */
+  padding: 10px;
+  /* Quinto y final, repartimos los bloques al largo del header */
+  justify-content: space-between;
 }
 
 .logo {
@@ -14,6 +23,15 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  /* Primero vamos a hacer que se comporten como "inline" */
+  display: flex;
+  /* Segundo quitamos el sangrado inicial de las listas junto con 
+  el espacio que deja verticalmente*/
+  padding: 0;
+  margin: 0;
+  /* Cuarto, ponemos separación entre los enlaces de la lista */
+  gap: 10px;
 }
 
 a {
